@@ -1,0 +1,23 @@
+{
+  "name": "football",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script-fixtures.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APKLEO/football-news.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/APKLEO/football-news/issues"
+  },
+  "homepage": "https://github.com/APKLEO/football-news#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
