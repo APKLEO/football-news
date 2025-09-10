@@ -25,6 +25,20 @@
     </main>
 
     <script src="script-news.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(function (registration) {
+                        console.log('Monetag service worker registered:', registration.scope);
+                    })
+                    .catch(function (error) {
+                        console.log('Monetag service worker registration failed:', error);
+                    });
+            });
+        }
+    </script>
+
 </body>
 
 </html>
