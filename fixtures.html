@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <h1>⚽Ajin's Football Hub</h1>
+        <h1>⚽ Ajin's Football Hub</h1>
         <nav>
             <a href="index.html">News</a>
             <a href="fixtures.html">Fixtures & Scores</a>
@@ -18,15 +18,40 @@
     </header>
 
     <main id="fixtures-container">
-        <h2>Today’s Fixtures</h2>
-        <div class="search-bar">
-            <input type="text" id="fixture-search" placeholder="Search team...">
-            <button onclick="searchFixtures()">Search</button>
-        </div>
-        <div id="fixtures-list">Loading fixtures...</div>
+        <h2>Upcoming Fixtures</h2>
+
+        <section class="fixtures-widget">
+            <h3>Premier League</h3>
+            <iframe src="https://widgets.api-sports.io/football/fixtures?competition=39" width="100%" height="600"
+                frameborder="0"></iframe>
+        </section>
+
+        <section class="fixtures-widget">
+            <h3>La Liga</h3>
+            <iframe src="https://widgets.api-sports.io/football/fixtures?competition=140" width="100%" height="600"
+                frameborder="0"></iframe>
+        </section>
+
+        <section class="fixtures-widget">
+            <h3>UEFA Champions League</h3>
+            <iframe src="https://widgets.api-sports.io/football/fixtures?competition=2" width="100%" height="600"
+                frameborder="0"></iframe>
+        </section>
+
+        <section class="fixtures-widget">
+            <h3>Serie A</h3>
+            <iframe src="https://widgets.api-sports.io/football/fixtures?competition=135" width="100%" height="600"
+                frameborder="0"></iframe>
+        </section>
+
+        <section class="fixtures-widget">
+            <h3>Bundesliga</h3>
+            <iframe src="https://widgets.api-sports.io/football/fixtures?competition=78" width="100%" height="600"
+                frameborder="0"></iframe>
+        </section>
+
     </main>
 
-    <script src="script-fixtures.js"></script>
 </body>
 
 </html>

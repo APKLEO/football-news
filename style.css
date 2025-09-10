@@ -75,3 +75,24 @@ h2 {
     text-align: center;
     font-size: 14px;
 }
+.fixtures-widget {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.fixtures-widget h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    color: #222;
+}
+
+.fixtures-widget iframe {
+    border: none;
+    width: 100%;
+    border-radius: 8px;
+}
