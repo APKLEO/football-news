@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fixtures & Scores</title>
     <link rel="stylesheet" href="style.css">
+<script src="https://widgets.api-sports.io/2.0.3/widgets.js"></script>
+
 </head>
 
 <body>
@@ -20,35 +22,36 @@
     <main id="fixtures-container">
         <h2>Upcoming Fixtures</h2>
 
-        <section class="fixtures-widget">
-            <h3>Premier League</h3>
-            <iframe src="https://widgets.api-sports.io/football/fixtures?competition=39" width="100%" height="600"
-                frameborder="0"></iframe>
-        </section>
+    <div class="fixtures-widget">
+        <h3>Premier League</h3>
+        <div class="apifootball-widget" data-host="v3.football.api-sports.io" data-key="8f8d170d650026ef4a7b624100284562" data-league="39"
+            data-theme="light" data-show="fixtures"></div>
+    </div>
+    
+    <div class="fixtures-widget">
+        <h3>La Liga</h3>
+        <div class="apifootball-widget" data-host="v3.football.api-sports.io" data-key="8f8d170d650026ef4a7b624100284562" data-league="140"
+            data-theme="light" data-show="fixtures"></div>
+    </div>
+    
+    <div class="fixtures-widget">
+        <h3>UEFA Champions League</h3>
+        <div class="apifootball-widget" data-host="v3.football.api-sports.io" data-key="8f8d170d650026ef4a7b624100284562" data-league="2"
+            data-theme="light" data-show="fixtures"></div>
+    </div>
+    
+    <div class="fixtures-widget">
+        <h3>Serie A</h3>
+        <div class="apifootball-widget" data-host="v3.football.api-sports.io" data-key="8f8d170d650026ef4a7b624100284562" data-league="135"
+            data-theme="light" data-show="fixtures"></div>
+    </div>
+    
+    <div class="fixtures-widget">
+        <h3>Bundesliga</h3>
+        <div class="apifootball-widget" data-host="v3.football.api-sports.io" data-key="8f8d170d650026ef4a7b624100284562" data-league="78"
+            data-theme="light" data-show="fixtures"></div>
+    </div>
 
-        <section class="fixtures-widget">
-            <h3>La Liga</h3>
-            <iframe src="https://widgets.api-sports.io/football/fixtures?competition=140" width="100%" height="600"
-                frameborder="0"></iframe>
-        </section>
-
-        <section class="fixtures-widget">
-            <h3>UEFA Champions League</h3>
-            <iframe src="https://widgets.api-sports.io/football/fixtures?competition=2" width="100%" height="600"
-                frameborder="0"></iframe>
-        </section>
-
-        <section class="fixtures-widget">
-            <h3>Serie A</h3>
-            <iframe src="https://widgets.api-sports.io/football/fixtures?competition=135" width="100%" height="600"
-                frameborder="0"></iframe>
-        </section>
-
-        <section class="fixtures-widget">
-            <h3>Bundesliga</h3>
-            <iframe src="https://widgets.api-sports.io/football/fixtures?competition=78" width="100%" height="600"
-                frameborder="0"></iframe>
-        </section>
 
     </main>
 
